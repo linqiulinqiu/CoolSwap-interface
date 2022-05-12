@@ -240,11 +240,10 @@ export const StyledMenuButton = styled.button`
   }
 `;
 
-const NETWORK_LABELS: { [chainId in ChainId]?: string } = {
-  [ChainId.RINKEBY]: 'Rinkeby',
-  [ChainId.ROPSTEN]: 'Ropsten',
-  [ChainId.GÖRLI]: 'Goerli',
-  [ChainId.KOVAN]: 'Kovan',
+console.log('ChainId =', ChainId)
+
+const NETWORK_LABELS = {
+    [ChainId.TBSC]: 'Binance Testnet',
 };
 
 export default function Header() {

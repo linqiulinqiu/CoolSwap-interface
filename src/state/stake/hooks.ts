@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, JSBI, Token, TokenAmount, WETH } from '@uniswap/sdk';
+import { ChainId, CurrencyAmount, JSBI, Token, TokenAmount } from '@uniswap/sdk';
 import { BUSD, USDT} from '../../constants';
 import { useActiveWeb3React } from '../../hooks';
 import { tryParseAmount } from '../swap/hooks';
@@ -12,18 +12,7 @@ export const STAKING_REWARDS_INFO: {
     tokens: [Token, Token];
     stakingRewardAddress: string;
   }[];
-} = {
-  [ChainId.MAINNET]: [
-    {
-      tokens: [WETH[ChainId.MAINNET], BUSD],
-      stakingRewardAddress: '0x7FBa4B8Dc5E7616e59622806932DBea72537A56b',
-    },
-    {
-      tokens: [WETH[ChainId.MAINNET], USDT],
-      stakingRewardAddress: '0x6C3e4cb2E96B01F4b866965A91ed4437839A121a',
-    },
-  ],
-};
+} = {};
 
 export interface StakingInfo {
   // the address of the reward contract
