@@ -1,6 +1,6 @@
 {
   "name": "AMM",
-  "logoURI": "http://localhost:3000/logo.png",
+  "logoURI": "../pbCoin.png",
   "timestamp": "2022-05-13T00:00:00.000+00:00",
   "tokens": [
     {
@@ -9,7 +9,7 @@
       "name": "Wrapped ETH",
       "symbol": "WETH",
       "decimals": 18,
-      "logoURI": "http://localhost:3000/a.png"
+      "logoURI": "https://tokens.1inch.io/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png"
     },
     {
       "chainId": 97,
@@ -17,7 +17,7 @@
       "name": "BUSD Token",
       "symbol": "BUSD",
       "decimals": 18,
-      "logoURI": "http://localhost:3000/a.png"
+      "logoURI": "https://tokens.1inch.io/0x4fabb145d64652a948d72533023f6e7a623c7c53.png"
     },
     {
       "chainId": 97,
@@ -25,7 +25,7 @@
       "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 18,
-      "logoURI": "http://localhost:3000/a.png"
+      "logoURI": "https://tokens.1inch.io/0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9.png"
     },
     {
       "chainId": 97,
@@ -33,7 +33,7 @@
       "name": "Wrapped BNB",
       "symbol": "WBNB",
       "decimals": 18,
-      "logoURI": "http://localhost:3000/a.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/22884/thumb/BNB_wh_small.png?1644224553"
     }
   ],
   "version":{
