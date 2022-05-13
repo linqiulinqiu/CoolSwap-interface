@@ -37,8 +37,7 @@ export function useTokenContract(tokenAddress?: string, withSignerIfPossible?: b
 
 export function useWETHContract(withSignerIfPossible?: boolean): Contract | null {
   const { chainId } = useActiveWeb3React();
-  console.log('useContract--WETH=', WETH, chainId)
-  return useContract(chainId ? WETH[chainId].address : undefined, WETH_ABI, withSignerIfPossible);
+  return useContract((chainId && chainId in WETH) ? WETH[chainId].address : undefined, WETH_ABI, withSignerIfPossible);
 }
 
 export function useArgentWalletDetectorContract(): Contract | null {
