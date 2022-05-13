@@ -1,8 +1,8 @@
 {
   "name": "@uniswap/sdk",
   "license": "MIT",
-  "version": "3.0.3",
-  "description": "🛠 An SDK for building applications on top of Uniswap.",
+  "version": "0.0.1",
+  "description": "🛠 An SDK for building applications on top of Uniswap. (Ported to PB-CoolSwap)",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
