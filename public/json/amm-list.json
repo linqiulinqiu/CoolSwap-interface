@@ -1,0 +1,45 @@
+{
+  "name": "AMM",
+  "logoURI": "http://localhost:3000/logo.png",
+  "timestamp": "2022-05-13T00:00:00.000+00:00",
+  "tokens": [
+    {
+      "chainId": 97,
+      "address": "0x8babbb98678facc7342735486c851abd7a0d17ca",
+      "name": "Wrapped ETH",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "http://localhost:3000/a.png"
+    },
+    {
+      "chainId": 97,
+      "address": "0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7",
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "logoURI": "http://localhost:3000/a.png"
+    },
+    {
+      "chainId": 97,
+      "address": "0x7ef95a0FEE0Dd31b22626fA2e10Ee6A223F8a684",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "http://localhost:3000/a.png"
+    },
+    {
+      "chainId": 97,
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "decimals": 18,
+      "logoURI": "http://localhost:3000/a.png"
+    }
+  ],
+  "version":{
+      "major":0,
+      "minor":0,
+      "patch":1
+  }
+}
+
